@@ -1,0 +1,121 @@
+body {
+	color: #000000;
+	background-color: #f9f8f6;
+	background-position: center;
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.4em;
+	margin: 0;}
+
+.wrapper {
+  width: 36rem;
+  margin: 1.25rem auto;
+  border: .125rem solid #ffffff;
+  background-color: #ffffff;
+  }
+.content {
+  display: flex;
+  margin: 1rem 1rem;
+}
+
+nav, nav a {
+  clear: both;
+  color: #4b054d;
+  background-color: #a6a6a6;
+  height: 1.875rem;
+  display: felx;}
+
+nav ul {
+  margin: 0rem;
+  padding: .3125rem 0 .3125rem 1.875rem;}
+
+nav li {
+  display: inline;
+  margin-right: 1.875rem;}
+
+h1, h2, h3 {
+  font-weight: 100;
+  }
+h1 {
+  margin: .7rem;
+  color: #ffffff;
+}
+
+h3 {
+  margin: .7rem;
+  color: #8f8f8f;
+
+}
+header {
+  background-color: black;
+}
+
+.header-titles {
+  padding: 4.4375rem 0 0.25rem 1.25rem;
+}
+
+a.open-meow {
+  float: right;
+  padding: .4375rem 1.25rem 0 0;
+}
+.main-content {
+	width: 21rem;
+
+}
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+figcaption{
+  font-size: 1.1rem;
+}
+
+article {
+	clear: both;
+	width: 100%;
+}
+article h2{
+  margin: ;
+}
+.quoatations {
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+p {
+  margin: 0;
+}
+
+aside h2{
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+aside p{
+  font-size: .8rem;
+  padding: 0 .5rem;
+}
+.book-now {
+  float: right;
+}
+aside {
+ border: 2px solid black;
+}
+
+footer {
+  font-size: .8rem;
+  color: #e0e0e0;
+  background-color: black;
+  height: 8rem;
+}
+
+a {
+ color: #e40315;
+}
+
+.contact{
+  text-align: left;
+  padding: .4375rem 0 0 1.25rem;
+}
+.copyright{
+  text-align: center;
+}
