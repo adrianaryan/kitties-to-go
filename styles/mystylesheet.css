@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	color: #000000;
 	background-color: #f9f8f6;
@@ -7,26 +11,30 @@ body {
 	margin: 0;}
 
 .wrapper {
-  width: 36rem;
+  display: block;
+  width: 37rem;
   margin: 1.25rem auto;
   border: .125rem solid #ffffff;
   background-color: #ffffff;
   }
 .content {
   display: flex;
-  margin: 1rem 1rem;
+  margin: 0;
+  padding: 0;
+  flex-flow: row;
+
 }
+
 
 nav, nav a {
   clear: both;
   color: #4b054d;
   background-color: #a6a6a6;
-  height: 1.875rem;
-  display: felx;}
+  height: 1.875rem;}
 
 nav ul {
   margin: 0rem;
-  padding: .3125rem 0 .3125rem 1.875rem;}
+  padding: .3125rem 0 .3125rem 2.5rem;}
 
 nav li {
   display: inline;
@@ -57,55 +65,69 @@ a.open-meow {
   float: right;
   padding: .4375rem 1.25rem 0 0;
 }
-.main-content {
-	width: 21rem;
 
-}
-figure {
-  text-align: center;
-  margin: 0;
-  padding: 0 0.5rem;
-}
-figcaption{
-  font-size: 1.1rem;
+.content > .main-content {
+  margin: 4px;
+  padding: 1rem .9rem;
+  flex: 3 1 7rem;
+  order: 1;
 }
 
-article {
-	clear: both;
-	width: 100%;
-}
-article h2{
-  margin: ;
-}
+/*Testimoials contents*/
 .quoatations {
   font-style: italic;
   margin: 0 0 1.5rem 0;
 }
+
+/*spaces between paragraphs*/
 p {
   margin: 0;
+}
+
+
+.content > aside {
+  margin: 1rem 0 2rem;
+  padding: 0;
+  flex: 2 6 3rem;
+  order: 2;
+  border: 1.5px solid black;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+  padding: 0 1.2rem;
+}
+
+figcaption{
+  font-size: 1.1rem;
+}
+
+article h2{
+  margin: 1rem 0 .5rem 0;
 }
 
 aside h2{
   font-size: 1.25rem;
   text-align: center;
-  margin: 0.5rem;
+  margin: 1rem 0 .5rem;
 }
 aside p{
-  font-size: .8rem;
-  padding: 0 .5rem;
+  font-size: .9rem;
+  margin: 0;
+  padding: 0 0 0 .5rem;
 }
+
 .book-now {
   float: right;
-}
-aside {
- border: 2px solid black;
+  padding: 0 .5rem 1rem 0;
 }
 
 footer {
-  font-size: .8rem;
+  font-size: 1rem;
   color: #e0e0e0;
   background-color: black;
-  height: 8rem;
+  height: 10rem;
 }
 
 a {
@@ -114,7 +136,7 @@ a {
 
 .contact{
   text-align: left;
-  padding: .4375rem 0 0 1.25rem;
+  padding: 1.5rem 0 1rem 1.25rem;
 }
 .copyright{
   text-align: center;
