@@ -10,6 +10,7 @@ body {
 	line-height: 1.4em;
 	margin: 0;}
 
+
 .wrapper {
   display: block;
   width: 37rem;
@@ -57,6 +58,12 @@ header {
   background-color: black;
 }
 
+.material-icons {
+  display: inline;
+  vertical-align: bottom;
+
+}
+
 .header-titles {
   padding: 4.4375rem 0 0.25rem 1.25rem;
 }
@@ -67,7 +74,7 @@ a.open-meow {
 }
 
 .content > .main-content {
-  margin: 4px;
+  margin: 0;
   padding: 1rem .9rem;
   flex: 3 1 7rem;
   order: 1;
@@ -86,7 +93,7 @@ p {
 
 
 .content > aside {
-  margin: 1rem 0 2rem;
+  margin: 1rem .4rem 2rem;
   padding: 0;
   flex: 2 6 3rem;
   order: 2;
@@ -105,6 +112,10 @@ figcaption{
 
 article h2{
   margin: 1rem 0 .5rem 0;
+}
+
+article p{
+  margin-bottom: 2rem;
 }
 
 aside h2{
@@ -130,10 +141,11 @@ footer {
   height: 10rem;
 }
 
+/*changes the href colors to red*/
 a {
  color: #e40315;
 }
-
+/* footer contact part text positions */
 .contact{
   text-align: left;
   padding: 1.5rem 0 1rem 1.25rem;
